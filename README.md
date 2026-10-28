@@ -1,27 +1,27 @@
 # 🚀 Project 95 – Chat App WebSockets | System Design Level | Full Stack DevOps
 
-[Java 21](https://img.shields.io/badge/Java-21-E76F00?logo=openjdk&logoColor=white)
-[Spring Boot 3.2.5](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=white)
-[WebSocket](https://img.shields.io/badge/WebSocket-Simple%20Handler-010101?logo=websocket&logoColor=white)
-[No STOMP](https://img.shields.io/badge/STOMP-Removed%20Fixed-brightgreen)
-[TextWebSocketHandler](https://img.shields.io/badge/TextWebSocketHandler-Active-00BFFF)
-[CopyOnWriteArrayList](https://img.shields.io/badge/Sessions-CopyOnWriteArrayList-FFA500)
-[H2 Database](https://img.shields.io/badge/H2-Database-003545?logo=h2&logoColor=white)
-[JPA](https://img.shields.io/badge/Spring%20Data%20JPA-Enabled-6DB33F)
-[Real-time](https://img.shields.io/badge/Real--time-Chat-FF0000)
-[Room Support](https://img.shields.io/badge/Room-general%20chat-blue)
-[JUnit 5](https://img.shields.io/badge/JUnit-5-25A162?logo=junit5&logoColor=white)
-[Mockito](https://img.shields.io/badge/Mockito-Ready-00BFFF)
-[Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?logo=docker&logoColor=white)
-[Render](https://img.shields.io/badge/Render-Live-brightgreen?logo=render&logoColor=white)
-[Tomcat](https://img.shields.io/badge/Apache%20Tomcat-10.1.20-D4AF00?logo=apachetomcat&logoColor=white)
-[Port](https://img.shields.io/badge/Port-8097-00BFFF)
-[Status](https://img.shields.io/badge/Status-Chat%20App%20WebSockets%20Live-brightgreen)
-[Tier 10](https://img.shields.io/badge/Tier%2010-System%20Design%20Level-blueviolet)
+![Java 21](https://img.shields.io/badge/Java-21-E76F00?logo=openjdk&logoColor=white)
+![Spring Boot 3.2.5](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-Simple%20Handler-010101?logo=websocket&logoColor=white)
+![No STOMP](https://img.shields.io/badge/STOMP-Removed%20Fixed-brightgreen)
+![TextWebSocketHandler](https://img.shields.io/badge/TextWebSocketHandler-Active-00BFFF)
+![CopyOnWriteArrayList](https://img.shields.io/badge/Sessions-CopyOnWriteArrayList-FFA500)
+![H2 Database](https://img.shields.io/badge/H2-Database-003545?logo=h2&logoColor=white)
+![JPA](https://img.shields.io/badge/Spring%20Data%20JPA-Enabled-6DB33F)
+![Real-time](https://img.shields.io/badge/Real--time-Chat-FF0000)
+![Room Support](https://img.shields.io/badge/Room-general%20chat-blue)
+![JUnit 5](https://img.shields.io/badge/JUnit-5-25A162?logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-Ready-00BFFF)
+![Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-Live-brightgreen?logo=render&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-10.1.20-D4AF00?logo=apachetomcat&logoColor=white)
+![Port](https://img.shields.io/badge/Port-8097-00BFFF)
+![Status](https://img.shields.io/badge/Status-Chat%20App%20WebSockets%20Live-brightgreen)
+![Tier 10](https://img.shields.io/badge/Tier%2010-System%20Design%20Level-blueviolet)
 
 **Live URL:** https://nine5-chat-app-websockets.onrender.com/
 
-[[Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://nine5-chat-app-websockets.onrender.com)
+[![Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://nine5-chat-app-websockets.onrender.com)
 
 Project 95 - Part of Java 102 Projects Challenge - System Design Level Tier 10 SCALE
 ---
@@ -165,57 +165,57 @@ This is Project 95 of Tier 10 - SCALE - After URL Shortener Scale (94), now real
 # 📸 Screenshots - 11 Demos - Chat App WebSockets Verified - Live on Render
 
 ### Demo 1 – Browser - GET / - Home Live JSON - Chat App WebSockets Tier 10
-[Demo1 Home](screenshots/demo1.png)
+![Demo1 Home](screenshots/demo1.png)
 
 *GET http://localhost:8097/ - Browser - 200 OK - Returns {"owner":"Raviteja","tier":"10 - System Design Level","websocket":"ws://localhost:8097/ws-chat","project":"95-chat-app-websockets","live":"https://nine5-chat-app-websockets.onrender.com","status":"Live - Chat App WebSockets"} - Proof of Home Live - Portfolio ready - Tier 10 SCALE 95/102 - WebSocket URL exposed*
 
 ### Demo 2 – Browser - GET /health - UP - WebSocket Active
-[Demo2 Health](screenshots/demo2.png)
+![Demo2 Health](screenshots/demo2.png)
 
 *GET http://localhost:8097/health - Browser - 200 OK - Returns {"websocket":"Active - /ws-chat","project":"95-chat-app-websockets","status":"UP"} - Proof of Health Endpoint - Tier 10 Health Check - WebSocket Active status - Same as Project 94 health*
 
 ### Demo 3 – Browser - GET /api/history/general - Empty List - Before Send
-[Demo3 History Empty](screenshots/demo3.png)
+![Demo3 History Empty](screenshots/demo3.png)
 
 *GET http://localhost:8097/api/history/general - Browser - 200 OK - Returns [] - Empty JSON array - Proof of History Endpoint Working - No messages yet - H2 in-memory empty - Real chat app starts empty like Slack*
 
 ### Demo 4 – Postman - POST /api/send - 200 OK - id 1 - Message Saved
-[Demo4 Post Send](screenshots/demo4.png)
+![Demo4 Post Send](screenshots/demo4.png)
 
 *POST http://localhost:8097/api/send - Body {"sender":"Raviteja","content":"Hello World","room":"general"} - Postman - 200 OK Time 245ms Size 274B - Returns {"id":1,"sender":"Raviteja","content":"Hello World","room":"general","timestamp":"2026-10-28T23:47:13.178409"} - Proof of Send Endpoint Working - ChatMessage saved to H2 - id auto increment - Timestamp LocalDateTime - Live on Render URL pattern*
 
 ### Demo 5 – Browser - GET /api/history/general - With Message - History Verified
-[Demo5 History After](screenshots/demo5.png)
+![Demo5 History After](screenshots/demo5.png)
 
 *GET http://localhost:8097/api/history/general - Browser - 200 OK - Returns [{"id":1,"sender":"Raviteja","content":"Hello World","room":"general","timestamp":"2026-10-28T23:47:13.178409"}] - Proof of History Persistence - Message saved in H2 - findByRoomOrderByTimestampAsc working - Room filter working - Chat history like real apps*
 
 ### Demo 6 – Eclipse JUnit - Green Bar - 2/2 Tests Passed - ChatServiceTest
-[Demo6 JUnit Green](screenshots/demo6.png)
+![Demo6 JUnit Green](screenshots/demo6.png)
 
 *Eclipse JUnit - Finished after 0.89 seconds - Runs: 2/2 - Errors: 0 - Failures: 0 - Green Bar - ChatServiceTest [Runner: JUnit 5] (0.003 s) - Failure Trace empty - Proof of Tier 10 Testing Goal - JUnit + Mockito - Same as Project 94*
 
 ### Demo 7 – Eclipse Console - JUnit Console Logs - Format + Entity
-[Demo7 JUnit Console](screenshots/demo7.png)
+![Demo7 JUnit Console](screenshots/demo7.png)
 
 *Eclipse Console - <terminated> ChatServiceTest [JUnit] - Format Message Test Passed: [2026-10-28T23:48:43.960256800] Raviteja: Hello World - Chat Entity Test Passed: Alice -> Hi - Proof of Test Output - Format logic verified - Entity getter/setter verified - Console logs same as Project 94 UrlShortenerServiceTest*
 
 ### Demo 8 – Eclipse Console - Tomcat 8097 Live - WebSocket Mapping
-[Demo8 Eclipse Console](screenshots/demo8.png)
+![Demo8 Eclipse Console](screenshots/demo8.png)
 
 *Eclipse Console - Spring Boot v3.2.5 banner - Starting Application Java 21.0.10 PID - Tomcat initialized with port 8097 (http) - StandardService Starting service Tomcat - StandardEngine Starting Servlet engine - Root WebApplicationContext initialization completed in 5019 ms - HikariPool-1 Starting Added connection conn0 url=jdbc:h2:mem:chatdb - Hibernate: create table chat_message (id bigint generated by default as identity, content TEXT not null, room varchar(255) not null, sender varchar(255) not null, timestamp) - Patterns [/ws-chat] in WebSocketHandlerMapping - Tomcat started on port 8097 (http) with context path '' - Started Application in 12.437 seconds - Proof of Tomcat 8097 Live - WebSocket /ws-chat registered - H2 table created - Same as 94 but 8097*
 
 ### Demo 9 – GitHub Push Success - 45 Objects
-[Demo9 GitHub Push](screenshots/demo9.png)
+![Demo9 GitHub Push](screenshots/demo9.png)
 
 *Terminal - git push -u origin main -> Enumerating objects 45, done. Counting objects 100% (45/45), done. Delta compression using up to 8 threads. Compressing objects 100% (30/30), done. Writing objects 100% (44/44), 822 KiB | 1.2 MiB/s, done. Total 45 (delta 2), reused 0 (delta 0), pack-reused 0. To https://github.com/raviteja-dev950/95-chat-app-websockets.git - Branch main set up to track remote branch main - Proof of GitHub Push - 45 objects - Same as 94*
 
 ### Demo 10 – Render Dashboard - Deploy Succeeded Live - 2m32s
-[Demo10 Deploy Live](screenshots/demo10.png)
+![Demo10 Deploy Live](screenshots/demo10.png)
 
 *Render Dashboard - WEB SERVICE nine5-chat-app-websockets Docker Free - STATUS Deploy succeeded Live Green Tick - DURATION 2m32s - DEPLOYED Date - TRIGGER Auto-Deploy - SOURCE commit - Logs: Tomcat started on port 10000 (http) with context path '' - Started Application in 92.497 seconds (process running for 102.804) - ==> Your service is live 🎉 - ==> Available at your primary URL https://nine5-chat-app-websockets.onrender.com - Proof of Production Deployment - Multi-Stage Dockerfile Fixed - Live on Internet - Same as Project 94 Live - Tier 10 SCALE 95/102*
 
 ### Demo 11 – Live URL - GET /health - UP - WebSocket Active - Internet
-[Demo11 Live Health](screenshots/demo11.png)
+![Demo11 Live Health](screenshots/demo11.png)
 
 *Browser - GET https://nine5-chat-app-websockets.onrender.com/health - 200 OK - Returns {"websocket":"Active - /ws-chat","project":"95-chat-app-websockets","status":"UP"} - Proof of Live on Internet - Render Docker - Tomcat 10000 - WebSocket /ws-chat Active on Live - Portfolio ready - Same as Project 94 Live*
 
